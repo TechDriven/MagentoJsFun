@@ -17,5 +17,12 @@ var config = {
     },
     "deps": [
         "Techdriven_MagentoJsFun/js/every-page"
-    ]
+    ],
+    "config": {
+        "mixins": {
+            "Magento_Ui/js/view/messages": {
+                "Techdriven_MagentoJsFun/js/messages-mixin": true
+            }
+        }
+    }
 }
