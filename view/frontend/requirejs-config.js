@@ -9,5 +9,13 @@ var config = {
             "https://cdn.jsdelivr.net/npm/vue@2/dist/vue",
             "Techdriven_MagentoJsFun/js/vue"
         ]
-    }
+    },
+    "shim": {
+        "Techdriven_MagentoJsFun/js/jquery-log": [
+            "jquery"
+        ]
+    },
+    "deps": [
+        "Techdriven_MagentoJsFun/js/every-page"
+    ]
 }
